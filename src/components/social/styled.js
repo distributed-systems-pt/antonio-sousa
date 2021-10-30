@@ -21,10 +21,12 @@ export const SocialItemList = styled.li`
     margin: 0 1.5rem;
   `}
 
-  &:hover {
-    transform: translateY(-0.5rem);
-    color: var(--highlight);
-  }
+  ${media.greaterThan("medium")`
+    &:hover {
+      transform: translateY(-0.5rem);
+      color: var(--highlight);
+    }
+  `}
 `;
 
 export const SocialLink = styled.a`
@@ -41,6 +43,6 @@ export const IconWrapper = styled.div`
   width: 2.5rem;
 
   ${media.lessThan("medium")`
-    width: 3rem;
+    width: 3.2rem;
   `}
 `;

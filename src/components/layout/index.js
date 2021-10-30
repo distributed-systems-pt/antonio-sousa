@@ -5,6 +5,7 @@ import Header from "../header";
 import GlobalStyles from "../../styles/global";
 import SideBar from "../side-bar";
 import { Main } from "./styled";
+import MobileFooter from "../footer/mobile";
 
 const Layout = ({ children }) => (
   <>
@@ -12,6 +13,7 @@ const Layout = ({ children }) => (
     <Header />
     <SideBar />
     <Main>{children}</Main>
+    <MobileFooter />
   </>
 );
 
