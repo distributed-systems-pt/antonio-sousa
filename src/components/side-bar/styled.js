@@ -14,30 +14,19 @@ export const Container = styled.div`
     right: 4rem;
   }
 
-  ${media.greaterThan("medium")`
-    @media screen and (min-height: 620px) {
-      &::after {
-        content: "";
-        display: block;
-        width: 0.1rem;
-        height: 9rem;
-        background-color: var(--secondaryColor);
-        margin: 0 auto;
-      }
+  @media screen and (min-height: 620px) {
+    &::after {
+      content: "";
+      display: block;
+      width: 0.1rem;
+      height: 9rem;
+      background-color: var(--secondaryColor);
+      margin: 0 auto;
     }
-  `}
+  }
 
   ${media.lessThan("medium")`
-    &.left {
-      animation: showUp 2s ease-out 1s;
-      opacity: 1;
-      width: 100%;
-      left: 0;
-    }
-
-    &.right {
-      display: none;
-    }
+    display: none;
   `}
 `;
 
