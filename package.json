@@ -2,7 +2,7 @@
   "name": "antonio-sousa-website",
   "private": true,
   "description": "This is project is my personal website, made with Gatsby and deployed on Netlify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",

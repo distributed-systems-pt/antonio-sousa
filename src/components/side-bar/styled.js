@@ -14,7 +14,7 @@ export const Container = styled.div`
     right: 4rem;
   }
 
-  ${media.greaterThan("small")`
+  ${media.greaterThan("medium")`
     @media screen and (min-height: 620px) {
       &::after {
         content: "";
@@ -32,7 +32,7 @@ export const Container = styled.div`
       width: 100%;
       left: 0;
     }
-    
+
     &.right {
       display: none;
     }
