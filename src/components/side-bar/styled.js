@@ -29,6 +29,8 @@ export const Container = styled.div`
 
   ${media.lessThan("medium")`
     &.left {
+      animation: showUp 2s ease-out 1s;
+      opacity: 1;
       width: 100%;
       left: 0;
     }
