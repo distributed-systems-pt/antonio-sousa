@@ -6,7 +6,7 @@ export const Wrapper = styled.footer`
   position: absolute;
   animation: showUp 1.5s ease-out;
   bottom: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   ${media.greaterThan("medium")`
     display: none;
