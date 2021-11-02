@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Personal Website`,
+    title: `António Sousa - Software Engineer`,
     author: `António Sousa`,
     position: "Software Engineer .Net",
     description: `This project is my personal website, made with Gatsby and deployed on Netlify`,
-    siteUrl: `https://antonio-carlos.com`,
+    siteUrl: `https://www.antonio-sousa.pt/`,
     social: {
       githubLink: `https://github.com/antonio-carlos-sousa`,
       linkedin: `https://www.linkedin.com/in/ant%C3%B3nio-sousa-55378a133/`,
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Playfair Display\:400,700,900`],
+        fonts: [`Playfair Display\:500,900`],
         display: "swap",
       },
     },
