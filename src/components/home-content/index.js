@@ -22,7 +22,7 @@ const HomeContent = () => (
         </TitleSpan>
         <DescriptionContainer>
           <Description>
-            Software Engineer, with five years of professional experience.
+            Senior Software Engineer, with seven years of professional experience.
           </Description>
           <Description>
             Currently based in Porto - Portugal, working as backend engineer
